@@ -19,7 +19,8 @@
           User Id:
         </div>
         <div class="col-lg-9">
-          <input type="text" name="txtUserId" id="txtUserId" value="">
+          <input type="text" name="name" [(ngModel)]="users[0].USER_ID" />
+          <!--<input type="text" name="txtUserId" id="txtUserId" value="">-->
         </div>
       </div>
     </div>
@@ -29,7 +30,8 @@
           Name:
         </div>
         <div class="col-lg-9">
-          <input type="text" name="txtName" id="txtName" value="" class="UserPage-TextBox">
+          <input type="text" name="name" [(ngModel)]="name" />
+          <!--<input type="text" name="txtName" id="txtName" value="" class="UserPage-TextBox">-->
         </div>
       </div>
     </div>

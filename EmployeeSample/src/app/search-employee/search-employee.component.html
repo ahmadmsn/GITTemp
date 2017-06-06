@@ -1,0 +1,26 @@
+<h1>
+  Employee Detail <br/>
+  <input type="text" (keyup)="onKeyup($event)" /> 
+   <!--<input type="text" />-->
+  <button (click)="GetEmployee()">Get Employee</button><br/><br/>
+</h1>
+<table>
+  <tr>
+    <td>
+      <label>Employee Id</label> <br/><br/>
+      <label>First Name</label> <br/><br/>
+      <label>Last Name</label> <br/><br/>
+      <label>Gender</label> <br/><br/>
+      <label>Salary</label> <br/><br/>
+    </td>
+    <td>
+      <input type="text" name="ID" [(ngModel)]="data1.ID" /><br/><br/>
+      <input type="text" name="FirstName" [(ngModel)]="data1.FIRSTNAME"  /><br/><br/>
+      <input type="text" name="LASTNAME" [(ngModel)]="data1.LASTNAME" /><br/><br/>
+      <input type="text" name="GENDER" [(ngModel)]="data1.GENDER" /><br/><br/>
+      <input type="text" name="SALARY" [(ngModel)]="data1.SALARY" /><br/><br/>
+    </td>
+  </tr>
+  <tr>    
+  </tr>
+</table>
