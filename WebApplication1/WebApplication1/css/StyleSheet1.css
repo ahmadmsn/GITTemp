@@ -1,0 +1,23 @@
+﻿#dragandrophandler
+{
+border:2px dotted #0B85A1;
+width:400px;
+height:200px;
+color:#92AAB0;
+text-align:center;
+vertical-align:middle;
+padding-top:100px;
+font-size:200%;
+}
+.dropzone{
+	width:300px;
+	height:300px;
+	border:2px dashed #ccc;
+	color:#ccc;
+	line-height:300px;
+	text-align:center;	
+}
+.dropzone.dragover{
+	border-color:#000;
+	color:#000;
+}
